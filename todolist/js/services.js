@@ -20,4 +20,12 @@ export default class Services {
             data:nhiemvu,
         })
     }
+
+    updateTasks(nhiemvu){
+        return axios({
+            url: `https://625bc0d0398f3bc782ae7df1.mockapi.io/api/dsnhiemvu/${nhiemvu.id}`,
+            method:"PUT",
+            data:nhiemvu,
+        })
+    }
 }

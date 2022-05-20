@@ -328,3 +328,24 @@ ul.todo#completed li .buttons .complete .far{
 ul.todo#completed span{
   color: #25b99a;
 }
+.bluehover i:nth-child(2){
+  color: gray;
+  transition: 0.5s all;
+}
+.bluehover i:nth-child(2):hover{
+  color: rgb(14, 195, 14) !important;
+}
+.bluehover i:nth-child(1){
+  color: gray;
+  transition: 0.5s all;
+}
+.bluehover i:nth-child(1):hover{
+  color: rgb(230, 37, 37) !important;
+}
+.borderhover{
+  border: 2px solid rgba(128, 128, 128, 0.452);
+  transition: 0.5s all;
+}
+.borderhover:hover{
+  border: 2px solid rgb(19, 150, 19);
+}
